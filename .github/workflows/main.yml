@@ -8,11 +8,13 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - id: variables
+        run: echo $GITHUB_REPOSITORY $GITHUB_WORKSPACE
       - id: hello
         uses: andrewnags/test-gha@v4
         with:
           basic-input: 'booooo'
-          GITHUB-REPOSITORY: ${{ GITHUB_REPOSITORY }}
-          GITHUB-WORKSPACE: ${{ GITHUB_WORKSPACE }}
+          GITHUB-REPOSITORY: $GITHUB_REPOSITORY
+          GITHUB-WORKSPACE: $GITHUB_WORKSPACE
       - id: output
         run: echo "The time was ${{ steps.hello.outputs.time }}"
