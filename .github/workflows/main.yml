@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    steps:
+      - id: hello
+        uses: andrewnags/test-gha@v2
+        with:
+          basic-input: 'booooo'
+      - id: output
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
