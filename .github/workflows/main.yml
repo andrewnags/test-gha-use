@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: hello
-        uses: andrewnags/test-gha@v3
+        uses: andrewnags/test-gha@v2
         with:
           basic-input: 'booooo'
       - id: output
