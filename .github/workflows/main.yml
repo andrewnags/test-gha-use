@@ -4,9 +4,15 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     steps:
+      - id: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - id: hello
-        uses: andrewnags/test-gha@v2
+        uses: andrewnags/test-gha@v4
         with:
           basic-input: 'booooo'
+          GITHUB-REPOSITORY: $GITHUB_REPOSITORY
+          GITHUB-WORKSPACE: $GITHUB_WORKSPACE
       - id: output
         run: echo "The time was ${{ steps.hello.outputs.time }}"
