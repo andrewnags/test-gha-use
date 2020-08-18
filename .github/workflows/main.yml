@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: hello
-        uses: andrewnags/test-gha@v2
+        uses: https://github.com/andrewnags/test-gha-use.git@v2
         with:
           basic-input: 'booooo'
       - id: output
