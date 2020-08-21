@@ -14,7 +14,7 @@ jobs:
         uses: andrewnags/test-gha@other
         with:
           basic_input: 'booooo'
-          GITHUB_REPOSITORY: $GITHUB_REPOSITORY
-          GITHUB_WORKSPACE: $GITHUB_WORKSPACE
+            #          GITHUB_REPOSITORY: $GITHUB_REPOSITORY
+            #          GITHUB_WORKSPACE: $GITHUB_WORKSPACE
       - id: output
         run: echo "The time was ${{ steps.hello.outputs.time }}"
