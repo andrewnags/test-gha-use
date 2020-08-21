@@ -11,7 +11,7 @@ jobs:
       - id: variables
         run: echo $GITHUB_REPOSITORY $GITHUB_WORKSPACE
       - id: hello
-        uses: andrewnags/test-gha@other
+        uses: andrewnags/test-gha@master
         with:
           basic_input: 'booooo'
             #          GITHUB_REPOSITORY: $GITHUB_REPOSITORY
