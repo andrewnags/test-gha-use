@@ -32,7 +32,7 @@ jobs:
           DEBUG_GITCHANGELOG: true
 
       - name: Make commit for auto-generated changelog
-        uses: uScheduleMe/auto-version-changelog@master
+        uses: uScheduleMe/auto-version-changelog@other
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -43,7 +43,7 @@ jobs:
         run: echo "::set-env name=version::$(source .version && echo $VERSION)"
 
       - name: Make commit for auto-generated changelog
-        uses: uScheduleMe/auto-version-changelog@master
+        uses: uScheduleMe/auto-version-changelog@other
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
