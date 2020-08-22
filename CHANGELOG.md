@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.3.0 (2020-08-22)
+
+### New
+
+* Added bird. [andrewnags]
+
+
 ## 0.2.1 (2020-08-22)
 
 ### Changes
