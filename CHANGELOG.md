@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.3.4 (2020-08-22)
+
+### Changes
+
+* Using different version. [andrewnags]
+
+
 ## 0.3.3 (2020-08-22)
 
 ### Changes
