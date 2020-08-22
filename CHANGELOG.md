@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 0.3.3 (2020-08-22)
+
+### Changes
+
+* Renamed file. [andrewnags]
+
+### Fix
+
+* Using other branch. [andrewnags]
+
+
 ## 0.3.2 (2020-08-22)
 
 ### Fix
