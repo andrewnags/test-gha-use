@@ -22,7 +22,7 @@ jobs:
         run: git pull --tags
 
       - name: Generate changelog
-        run: python3 -m gitchangelog
+        run: python3 -c "import gitchangelog; gitchangelog.main()"
         env:
           DEBUG_GITCHANGELOG: true
 
