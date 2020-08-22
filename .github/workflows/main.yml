@@ -22,6 +22,8 @@ jobs:
 
       - name: Generate changelog
         run: gitchangelog
+        env:
+          DEBUG_GITCHANGELOG: true
 
       - name: Make commit for auto-generated changelog
         uses: uScheduleMe/auto-version-changelog@master
