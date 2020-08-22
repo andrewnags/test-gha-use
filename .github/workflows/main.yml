@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install release packages
-        run: python3 -m pip install -r requirements.txt
+        run: python3 -m pip install setuptools && python3 -m pip install -r requirements.txt
 
       - name: Pull tags from the repo
         run: git pull --tags
