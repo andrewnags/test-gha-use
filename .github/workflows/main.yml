@@ -1,20 +1,44 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  auto_version_changelog:
     runs-on: ubuntu-latest
     steps:
       - id: checkout
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - id: variables
-        run: echo $GITHUB_REPOSITORY $GITHUB_WORKSPACE
-      - id: hello
-        uses: andrewnags/test-gha@master
+
+      - name: Setup python
+        uses: actions/setup-python@v2
         with:
-          basic_input: 'booooo'
-            #          GITHUB_REPOSITORY: $GITHUB_REPOSITORY
-            #          GITHUB_WORKSPACE: $GITHUB_WORKSPACE
-      - id: output
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          python-version: '3.7'
+
+      - name: Install release packages
+        run: pip install -r requirements.txt
+
+      - name: Pull tags from the repo
+        run: git pull --tags
+
+      - name: Generate changelog
+        run: gitchangelog
+
+      - name: Make commit for auto-generated changelog
+        uses: uScheduleMe/auto-version-changelog@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          add: 'CHANGELOG.md'
+          message: 'automatic gitchangelog generation'
+
+      - name: Get new version tag
+        run: echo "::set-env name=version::$(source .version && echo $VERSION)"
+
+      - name: Make commit for auto-generated changelog
+        uses: uScheduleMe/auto-version-changelog@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          add: '.version'
+          message: 'automatic version increase'
+          tag: ${{ env.version }}
