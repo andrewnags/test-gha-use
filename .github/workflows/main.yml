@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: '3.7'
 
+      - name: finding python3 version
+        run: python3 --version
+
       - name: Install release packages
         run: pip install -r requirements.txt
 
