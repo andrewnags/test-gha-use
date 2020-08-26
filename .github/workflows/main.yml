@@ -40,15 +40,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          add: 'CHANGELOG.md'
-          message: 'automatic gitchangelog generation'
-
-      - name: Get new version tag
-        run: echo "::set-env name=version::$(source .version && echo $VERSION)"
-
-      - name: Make commit for auto-generated changelog
-        uses: uScheduleMe/auto-version-changelog@other
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
           tag: "bah humbug"
