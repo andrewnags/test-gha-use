@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.5.0 (2020-08-26)
+
+### New
+
+* Chickadee. [andrewnags]
+
+
 ## 0.4.2 (2020-08-26)
 
 ### Changes
