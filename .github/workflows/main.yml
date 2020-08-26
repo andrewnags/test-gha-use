@@ -4,8 +4,6 @@ jobs:
   auto_version_changelog:
     runs-on: ubuntu-latest
     steps:
-      - name: finding python version
-        run: python --version
 
       - name: finding python3 version
         run: python3 --version
