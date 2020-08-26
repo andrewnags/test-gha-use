@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.4.0 (2020-08-26)
+
+### New
+
+* Added gitignore. [andrewnags]
+
+
 ## 0.3.5 (2020-08-22)
 
 ### Changes
