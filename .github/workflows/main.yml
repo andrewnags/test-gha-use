@@ -51,6 +51,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          add: '.version'
-          message: 'automatic version increase'
           tag: ${{ env.version }}
