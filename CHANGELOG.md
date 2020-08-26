@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.10.1 (2020-08-26)
+
+### Changes
+
+* Offloading pulling tags. [andrewnags]
+
+
 ## 0.10.0 (2020-08-26)
 
 ### New
