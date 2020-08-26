@@ -34,6 +34,9 @@ jobs:
         env:
           DEBUG_GITCHANGELOG: true
 
+      - name: finding which gitchangelog
+        run: which gitchangelog
+
       - name: Make commit for auto-generated changelog
         uses: uScheduleMe/auto-version-changelog@other
         env:
