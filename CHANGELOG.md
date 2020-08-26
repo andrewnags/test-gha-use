@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.8.0 (2020-08-26)
+
+### New
+
+* Offloading running gitchangelog. [andrewnags]
+
+
 ## 0.7.1 (2020-08-26)
 
 ### Changes
