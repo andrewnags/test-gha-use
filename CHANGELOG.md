@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.6.2 (2020-08-26)
+
+### Changes
+
+* Restored chickadee. [andrewnags]
+
+
 ## 0.6.1 (2020-08-26)
 
 ### Changes
