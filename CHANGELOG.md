@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.7.1 (2020-08-26)
+
+### Changes
+
+* Removed tag. [andrewnags]
+
+
 ## 0.7.0 (2020-08-26)
 
 ### New
