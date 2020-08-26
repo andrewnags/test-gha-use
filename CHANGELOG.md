@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 0.10.0 (2020-08-26)
+
+### New
+
+* Mammal. [andrewnags]
+
+### Fix
+
+* Forgot to remove which gitchangelog. [andrewnags]
+
+
 ## 0.9.0 (2020-08-26)
 
 ### New
