@@ -21,9 +21,6 @@ jobs:
       - name: finding python3 version
         run: python3 --version
 
-      - name: Pull tags from the repo
-        run: git pull --tags
-
       - name: Make commit for auto-generated changelog
         uses: uScheduleMe/auto-version-changelog@other
         env:
