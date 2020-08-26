@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.9.0 (2020-08-26)
+
+### New
+
+* Added chick. [andrewnags]
+
+
 ## 0.8.0 (2020-08-26)
 
 ### New
