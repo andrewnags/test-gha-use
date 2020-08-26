@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.7.0 (2020-08-26)
+
+### New
+
+* Offload versioning and changelog generation. [andrewnags]
+
+
 ## 0.6.3 (2020-08-26)
 
 ### Changes
