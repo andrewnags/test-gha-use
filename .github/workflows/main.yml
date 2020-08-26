@@ -39,5 +39,3 @@ jobs:
         uses: uScheduleMe/auto-version-changelog@other
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag: "bah humbug"
