@@ -1,6 +1,15 @@
 # Changelog
 
 
+## 0.6.0 (2020-08-26)
+
+### Fix
+
+* Revert "new: chickadee" [andrewnags]
+
+  This reverts commit dbf05da2e8b85c95781e47cb758a279fa9dde513.
+
+
 ## 0.5.0 (2020-08-26)
 
 ### New
