@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.6.3 (2020-08-26)
+
+### Changes
+
+* Bah humbug. [andrewnags]
+
+
 ## 0.6.2 (2020-08-26)
 
 ### Changes
