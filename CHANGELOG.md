@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.4.2 (2020-08-26)
+
+### Changes
+
+* Removed python2. [andrewnags]
+
+
 ## 0.4.1 (2020-08-26)
 
 ### Changes
