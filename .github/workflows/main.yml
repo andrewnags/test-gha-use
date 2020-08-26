@@ -27,11 +27,6 @@ jobs:
       - name: Pull tags from the repo
         run: git pull --tags
 
-      - name: Generate changelog
-        run: gitchangelog
-        env:
-          DEBUG_GITCHANGELOG: true
-
       - name: finding which gitchangelog
         run: which gitchangelog
 
