@@ -13,15 +13,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.7'
-
       - name: finding python3 version
         run: python3 --version
 
-      - name: Make commit for auto-generated changelog
+      - name: Auto-generate changelog and increment version
         uses: uScheduleMe/auto-version-changelog@other
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
