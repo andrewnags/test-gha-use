@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.4.1 (2020-08-26)
+
+### Changes
+
+* Checking gitchangelog version. [andrewnags]
+
+
 ## 0.4.0 (2020-08-26)
 
 ### New
