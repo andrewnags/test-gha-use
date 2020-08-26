@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 0.6.1 (2020-08-26)
+
+### Changes
+
+* Only tag to increment the version. [andrewnags]
+
+
 ## 0.6.0 (2020-08-26)
 
 ### Fix
