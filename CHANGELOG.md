@@ -1,6 +1,21 @@
 # Changelog
 
 
+## 0.15.1 (2020-08-28)
+
+### Changes
+
+* Revert "chg: removed python setup" [andrewnags]
+
+  This reverts commit 2c4445e72f59badb69a47f6dc28b9743b807e1df.
+
+* Removed python setup. [andrewnags]
+
+### Fix
+
+* Removing debugging statements. [andrewnags]
+
+
 ## 0.15.0 (2020-08-28)
 
 ### New
