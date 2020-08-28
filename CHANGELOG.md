@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 0.13.0 (2020-08-28)
+
+### New
+
+* Added fox. [andrewnags]
+
+* Added elephant. [andrewnags]
+
+* Removed .gitchangelog.rc. [andrewnags]
+
+
 ## 0.12.0 (2020-08-28)
 
 ### New
