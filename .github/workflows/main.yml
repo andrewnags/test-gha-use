@@ -5,9 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: finding python3 version
-        run: python3 --version
-
       - id: checkout
         uses: actions/checkout@v2
         with:
@@ -17,9 +14,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.7'
-
-      - name: finding python3 version
-        run: python3 --version
 
       - name: Make commit for auto-generated changelog
         uses: uScheduleMe/auto-version-changelog@other
