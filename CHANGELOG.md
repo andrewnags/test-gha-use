@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 0.14.0 (2020-08-28)
+
+### Changes
+
+* Added cheep. [andrewnags]
+
+* Revert "Revert "new: removed .gitchangelog.rc"" [andrewnags]
+
+  This reverts commit d8eb0125589088e7e72a93922c79c3f79de88925.
+
+
 ## 0.13.0 (2020-08-28)
 
 ### New
